@@ -20,11 +20,4 @@ phrase= "I LOVE YOU GRANDMA"
   end
   
 
-  elsif phrase != phrase.upcase 
-    puts "HUH?! SPEAK UP, SONNY!"
-  else 
-    puts "NO, NOT SINCE 1938!"
-  end
-end
-
 speak_to_grandma
