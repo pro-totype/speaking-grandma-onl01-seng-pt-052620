@@ -16,13 +16,13 @@ def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   elsif phrase != phrase.upcase 
-    puts "HUH?! SPEAK UP, SONNY!"
+    puts "HUH?! SPEAK UP, SONNY!".chomp
   else 
     puts "NO, NOT SINCE 1938!"
   end
 end
 
-speak_to_grandma("I LOVE YOU GRANDMA!").chomp
+speak_to_grandma("I LOVE YOU GRANDMA!")
 speak_to_grandma("Hi Nana, how are you?")
 speak_to_grandma("Hi!")
 speak_to_grandma("WHAT DID YOU EAT TODAY!")
