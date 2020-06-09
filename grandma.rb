@@ -13,10 +13,13 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma
-phrase= ["I LOVE YOU GRANDMA!","Hi Nana, how are you?","Hi!","WHAT DID YOU EAT TODAY?","WHAT?"]
+phrase= "I LOVE YOU GRANDMA"
   
   if phrase == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
+  end
+  
+
   elsif phrase != phrase.upcase 
     puts "HUH?! SPEAK UP, SONNY!"
   else 
