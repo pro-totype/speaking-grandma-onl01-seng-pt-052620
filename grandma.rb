@@ -22,7 +22,7 @@ def speak_to_grandma(phrase)
   end
 end
 
-speak_to_grandma("I LOVE YOU GRANDMA!")
+speak_to_grandma("I LOVE YOU GRANDMA!").chomp
 speak_to_grandma("Hi Nana, how are you?")
 speak_to_grandma("Hi!")
 speak_to_grandma("WHAT DID YOU EAT TODAY!")
